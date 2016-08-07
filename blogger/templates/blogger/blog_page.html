@@ -2,7 +2,9 @@
 
 {% load wagtailcore_tags wagtailimages_tags %}
 
-{% block body_class %}template-blogpage{% endblock %}
+{% block body_class %}
+    {% include 'home/analytics.html' %}
+    template-blogpage{% endblock %}
 
 {% block content %}
     <h1>{{ page.title }}</h1>
