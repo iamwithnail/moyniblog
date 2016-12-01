@@ -3,3 +3,6 @@ env/
 db.sqlite3
 media/
 .idea/
+*/migrations/*
+
+blog/urls.pyc
