@@ -13,6 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {# Global stylesheets #}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
 
         {% block extra_css %}
@@ -22,8 +23,10 @@
 
     <body class="{% block body_class %}{% endblock %}">
         {% wagtailuserbar %}
+<div class="page-container">
 
         {% block content %}{% endblock %}
+</div>
 
         {# Global javascript #}
         <script type="text/javascript" src="{% static 'js/blog.js' %}"></script>
