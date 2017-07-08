@@ -2,6 +2,8 @@ from fabric.api import local, run, env, cd
 
 
 env.hosts = ['blog.moynibell.com']
+env.user = 'chrisc'
+
 def prepare_deploy():
     local("git add -p && git commit")
 
