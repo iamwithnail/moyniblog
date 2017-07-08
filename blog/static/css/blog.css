@@ -6,4 +6,13 @@ h2 {
     margin: 0 auto;
 }
 
+#bannerimage {
+  width: 100%;
+  background-image: url(http://airlines-airports.com/wp-content/uploads/2016/07/Bosnia-and-Herzegovina-Sarajevo.jpg);
+  height: 205px;
+  background-color: purple;
+  background-position: center;
+}
+
+
 \\\\\\
