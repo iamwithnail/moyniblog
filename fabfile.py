@@ -4,7 +4,11 @@ from fabric.api import local, run, env, cd
 env.hosts = ['blog.moynibell.com']
 def prepare_deploy():
     local("git add -p && git commit")
+
+
+def push():
     local("git push origin master")
+
 
 def deploy():
     code_dir = '/var/www/moyniblog/blog'
