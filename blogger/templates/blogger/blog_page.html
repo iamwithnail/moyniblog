@@ -11,10 +11,10 @@
     <p class="meta">{{ page.date }}</p>
 
     {% if page.main_image %}
-        {% image page.main_image %}
+        {% image page.main_image width-600 %}
     {% endif %}
 
-    <div class="intro"><h2>{{ page.intro }}</h2></div>
+    <div class="intro">{{ page.intro }}</div>
 
     {{ page.body|richtext }}
 {% endblock %}
