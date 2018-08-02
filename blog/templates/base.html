@@ -28,6 +28,7 @@
 <div class="navbar navbar-inverse">
   <a class="navbar-brand" href="/">Home</a>
   <ul class="nav navbar-nav">
+      <li><a href="/summer-2018/">Summer 2018</a></li>
         <li><a href="/bosnia-2017/">Bosnia 2017</a></li>
         <li><a href="/balkans-2016/">Balkans Tour 2016</a></li>
   </ul>
@@ -53,5 +54,7 @@
         {% block extra_js %}
             {# Override this in templates to add extra javascript #}
         {% endblock %}
+     {% block footer %}
+    {% endblock footer %}
     </body>
 </html>
