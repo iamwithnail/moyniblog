@@ -17,6 +17,13 @@ import os
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
+DEBUG = False
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = '(bnxzx_6!@csomeotherstuffhere&f!vfsj@u9b4#jw-d745kv204rs=j2k(b-iin5='
+ALLOWED_HOSTS = ['blog.ccampbell.co', '127.0.0.1']
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 # Quick-start development settings - unsuitable for production
