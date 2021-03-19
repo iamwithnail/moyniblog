@@ -9,7 +9,7 @@ Django==1.11.3
 django-modelcluster==3.1
 django-taggit==0.22.1
 django-treebeard==4.1.2
-djangorestframework==3.6.3
+djangorestframework==3.11.2
 enum34==1.1.6
 Fabric==1.13.2
 html5lib==0.999999999
